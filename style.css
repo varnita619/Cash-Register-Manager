@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+:root{
+    --primary-color: #4a074d;
+    --secondary-color: #e6b4fd;
+}
+
+body{
+     background-color: var(--primary-color) ;
+     max-width: 100%;
+}
+
+.section{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 500px;
+    min-height: 200px;
+    margin: auto;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.heading{
+    color: white;
+    font-size: 2rem;
+}
+
+p{
+    color: white;
+    padding: 40px; 
+    font-size: 1.2rem;
+}
+
+.section1{
+    text-align: center;
+}
+
+
+.label{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 1.6rem;
+    color: var(--secondary-color);
+}
+
+.section3{
+    padding-top: 40px;
+    text-align: center;
+    display: none;
+}
+
+
+input{
+    width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    display: block;
+    font-size: 1rem;
+    border: none;
+    margin: 1rem auto 0;
+    background-color:var(--secondary-color);
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.section4{
+    margin-top: 40px;
+    display: none;
+}
+.errorMsg{
+    padding-top: 1rem;
+    color:white;
+}
+#output{
+    margin: 1rem 0;    
+}
+
+#output table, th, td{
+    padding: 0.2rem;
+    color: var(--primary-color);
+    background-color:var(--secondary-color);
+    border: 2px solid var(--primary-color) ;
+    border-collapse: collapse;
+}
+.noOfNotes{
+    background-color:white;
+    font-weight: bold;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+}
+
+th,td{
+    word-wrap: break-word;
+}
